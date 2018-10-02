@@ -8,10 +8,12 @@ using AutoMapper;
 using Services.DTO;
 using System.Threading.Tasks;
 using System.Linq;
+using Core.Entity;
+using Core.Interfaces;
 
 namespace Services.ServicesP.ServicesM
 {
-    public class PersonaService: IPersonaService
+    public class PersonaService : IPersonaService
     {
         private readonly UnitOfWorkk _unitOfWork;
         protected readonly IMapper _mapper;
@@ -22,18 +24,12 @@ namespace Services.ServicesP.ServicesM
             _mapper = mapper;
         }
 
-
-        public int CreatePersona(PersonaDTO persona)
+        public Task<PersonaDTO> GetById(int Id)
         {
             throw new NotImplementedException();
         }
 
-        public bool DeletePersona(int Id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public async Task<IEnumerable<PersonaDTO>> GetAllPersons()
+        public async Task<IEnumerable<PersonaDTO>> GetAll()
         {
             var person = await _unitOfWork.PersonaRepository.GetAll();
             if (person.Any())
@@ -43,19 +39,85 @@ namespace Services.ServicesP.ServicesM
             return null;
         }
 
-        public async Task<PersonaDTO> GetPersonById(int Id)
-        {
-            var person = await _unitOfWork.PersonaRepository.GetById(Id);
-            if (person != null)
-            {
-                return _mapper.Map<PersonaDTO>(person);
-            }
-            return null;
-        }
-
-        public bool UpdatePersona(int Id, PersonaDTO persona)
+        public int Create(DTO.PersonaDTO entity)
         {
             throw new NotImplementedException();
         }
+
+        public bool Update(int Id, DTO.PersonaDTO entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool Delete(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        //public Task<TEntity> GetById(int Id)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public async Task<IEnumerable<PersonaDTO>> GetAll()
+        //{
+        //    var person = await _unitOfWork.PersonaRepository.GetAll();
+        //    if (person.Any())
+        //    {
+        //        return _mapper.Map<List<PersonaDTO>>(person).ToList();
+        //    }
+        //    return null;
+        //}
+
+        //public int Create(TEntity entity)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public bool Update(int Id, TEntity entity)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public bool Delete(int Id)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+
+        //public int Create(PersonaDTO persona)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public bool Delete(int Id)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public async Task<IEnumerable<PersonaDTO>> GetAll()
+        //{
+        //    var person = await _unitOfWork.PersonaRepository.GetAll();
+        //    if (person.Any())
+        //    {
+        //        return _mapper.Map<List<PersonaDTO>>(person).ToList();
+        //    }
+        //    return null;
+        //}
+
+        //public async Task<PersonaDTO> GetById(int Id)
+        //{
+        //    var person = await _unitOfWork.PersonaRepository.GetById(Id);
+        //    if (person != null)
+        //    {
+        //        return _mapper.Map<PersonaDTO>(person);
+        //    }
+        //    return default(PersonaDTO);
+        //}
+
+        //public bool Update(int Id, PersonaDTO entity)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }

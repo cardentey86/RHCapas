@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Core;
 using Microsoft.Extensions.DependencyInjection;
+using Services.DTO;
 using Services.Services.Interfaces;
 using Services.ServicesP.ServicesM;
 using Services.UnitOfWork;

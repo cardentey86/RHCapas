@@ -1,6 +1,8 @@
 ﻿using Core;
+using Core.Entity;
 using Infrastructure.DataContext;
 using Infrastructure.Repository;
+using Services.DTO;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,13 +11,11 @@ using System.Threading.Tasks;
 
 namespace Services.UnitOfWork
 {
-    public class UnitOfWorkk : IDisposable
+    public class UnitOfWorkk: IDisposable
     {
         private RHDbContext _context;
-        private GenericRepository<Persona, int> _personaRepository;
+        private GenericRepository<Persona, int> _genericRepository;
         //private GenericRepository<Product> _productRepository;
-
-
 
         public UnitOfWorkk(RHDbContext context)
         {
@@ -26,9 +26,9 @@ namespace Services.UnitOfWork
         {
             get
             {
-                if (this._personaRepository == null)
-                    this._personaRepository = new GenericRepository<Persona, int>(_context);
-                return _personaRepository;
+                if (this._genericRepository == null)
+                    this._genericRepository = new GenericRepository<Persona, int>(_context);
+                return _genericRepository;
             }
         }
 

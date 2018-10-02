@@ -29,7 +29,7 @@ namespace WebApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<PersonaDTO>> GetPersona()
         {
-            return await _personaServices.GetAllPersons();
+            return await _personaServices.GetAll();
         }
 
         // GET: api/Personas/5

@@ -1,4 +1,5 @@
 ﻿using Core;
+using Core.Entity;
 using Services.DTO;
 using System;
 using System.Collections.Generic;
@@ -9,10 +10,10 @@ namespace Services.Services.Interfaces
 {
     public interface IPersonaService
     {
-        Task<PersonaDTO> GetPersonById(int Id);
-        Task<IEnumerable<PersonaDTO>> GetAllPersons();
-        int CreatePersona(PersonaDTO persona);
-        bool UpdatePersona(int Id, PersonaDTO persona);
-        bool DeletePersona(int Id);
+        Task<PersonaDTO> GetById(int Id);
+        Task<IEnumerable<PersonaDTO>> GetAll();
+        int Create(PersonaDTO entity);
+        bool Update(int Id, PersonaDTO entity);
+        bool Delete(int Id);
     }
 }
