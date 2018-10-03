@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Core;
+using Core.Entity;
+using Core.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using Services.DTO;
 using Services.Services.Interfaces;
@@ -16,10 +18,11 @@ namespace Services.ServicesP
         public static IServiceCollection AddServices(this IServiceCollection services)
         {
             services.AddAutoMapper();
-           // services.AddRepositories(connectionString);
+
 
             services.AddTransient<IPersonaService, PersonaService>();
             services.AddTransient<UnitOfWorkk, UnitOfWorkk>();
+
 
             return services;
         }

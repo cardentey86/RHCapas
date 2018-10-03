@@ -41,14 +41,14 @@ namespace WebApi.Controllers
                 return BadRequest(ModelState);
             }
 
-          //  var persona = await _personaServices.Persona.SingleOrDefaultAsync(m => m.Id == id);
+            var persona = await _personaServices.GetById(id);
+            
+            if (persona == null)
+            {
+                return NotFound();
+            }
 
-            //if (persona == null)
-            //{
-            //    return NotFound();
-            //}
-
-            return Ok("");
+            return Ok(persona);
         }
 
         // PUT: api/Personas/5
@@ -88,15 +88,15 @@ namespace WebApi.Controllers
 
         // POST: api/Personas
         [HttpPost]
-        public async Task<IActionResult> PostPersona([FromBody] Persona persona)
+        public async Task<IActionResult> PostPersona([FromBody] PersonaDTO persona)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-          //  _context.Persona.Add(persona);
-          //  await _context.SaveChangesAsync();
+            await _personaServices.Create(persona);
+            //await _personaServices.SaveChanges();
 
             return CreatedAtAction("GetPersona", new { id = persona.Id }, persona);
         }

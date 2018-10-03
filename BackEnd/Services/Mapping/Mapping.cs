@@ -1,9 +1,13 @@
 ﻿using AutoMapper;
 using Core;
+using Core.Entity;
+using Core.Interfaces;
 using Services.DTO;
 using System;
 using System.Collections.Generic;
 using System.Text;
+
+
 
 namespace Services.Mapping
 {
@@ -12,6 +16,8 @@ namespace Services.Mapping
         public Mapping()
         {
             CreateMap<Persona, PersonaDTO>().ReverseMap();
+            CreateMap<PersonaDTO, Persona>().ReverseMap();
+            //CreateMap<Entity<int>, EntityDTO<int>>().ReverseMap();
         }
 
        

@@ -54,6 +54,7 @@ namespace Infrastructure.Repository
             {
                 entity.CreatedDate = DateTime.UtcNow;
                 entity.ModifiedDate = DateTime.UtcNow;
+                
                 await DbSet.AddAsync(entity);
             }
             catch (Exception ex)

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using Core.Entity;
 using Core.Interfaces;
+using System.Transactions;
 
 namespace Services.ServicesP.ServicesM
 {
@@ -24,9 +25,14 @@ namespace Services.ServicesP.ServicesM
             _mapper = mapper;
         }
 
-        public Task<PersonaDTO> GetById(int Id)
+        public async Task<PersonaDTO> GetById(int Id)
         {
-            throw new NotImplementedException();
+            var person = await _unitOfWork.PersonaRepository.GetById(Id);
+            if (person != null)
+            {
+                return _mapper.Map<PersonaDTO>(person);
+            }
+            return null;
         }
 
         public async Task<IEnumerable<PersonaDTO>> GetAll()
@@ -39,12 +45,29 @@ namespace Services.ServicesP.ServicesM
             return null;
         }
 
-        public int Create(DTO.PersonaDTO entity)
+        public async Task<PersonaDTO> Create(PersonaDTO entity)
         {
-            throw new NotImplementedException();
+            //var person = _unitOfWork.PersonaRepository.Insert(entity);
+            //await _unitOfWork.SaveChanges();
+            //return _mapper.Map<PersonaDTO>(person);
+            
+            using (var scope = new TransactionScope())
+            {
+                var person = new Persona
+                {
+                    Nombre = entity.Nombre,
+                    FechaNacimiento = entity.FechaNacimiento,
+                    Email = entity.Email
+                };               
+                
+                await _unitOfWork.PersonaRepository.Insert(person);
+                await _unitOfWork.SaveChanges();
+                scope.Complete();
+                return entity;
+            }
         }
 
-        public bool Update(int Id, DTO.PersonaDTO entity)
+        public bool Update(int Id, PersonaDTO entity)
         {
             throw new NotImplementedException();
         }
@@ -52,6 +75,16 @@ namespace Services.ServicesP.ServicesM
         public bool Delete(int Id)
         {
             throw new NotImplementedException();
+        }
+
+        public void Dispose()
+        {
+            _unitOfWork.Dispose();
+        }
+
+        public async Task<int> SaveChanges()
+        {
+           return await _unitOfWork.SaveChanges();
         }
 
         //public Task<TEntity> GetById(int Id)
