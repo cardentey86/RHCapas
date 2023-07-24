@@ -10,7 +10,7 @@ namespace Core
         public string Nombre { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public string Email { get; set; }
-		public string Develop_S { get; set; }
-		public string Master_n { get; set; }
+		public string Develop_d { get; set; }
+		public string Master_m { get; set; }
     }
 }
