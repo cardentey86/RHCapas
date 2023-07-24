@@ -14,4 +14,4 @@ namespace Core
 		public string Master_no { get; set; }
     }
 }
->>>>>>> Develop
+
