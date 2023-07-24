@@ -52,6 +52,7 @@ namespace Infrastructure.Repository
         {
             try
             {
+                
                 entity.CreatedDate = DateTime.UtcNow;
                 entity.ModifiedDate = DateTime.UtcNow;
                 
