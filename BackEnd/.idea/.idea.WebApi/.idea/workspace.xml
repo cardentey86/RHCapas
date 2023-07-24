@@ -8,7 +8,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc6207f5-abf5-409c-8033-0e96f190c1a0" name="Changes" comment="" />
+    <list default="true" id="cc6207f5-abf5-409c-8033-0e96f190c1a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Entity/Persona.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entity/Persona.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/DataContext/RHDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/DataContext/RHDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApi/Controllers/PersonasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApi/Controllers/PersonasController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,11 +30,33 @@
       </map>
     </option>
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="cardentey86" />
+        <option name="repository" value="RHCapas" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="303b73d2-f794-41a6-8b7e-681635c2f340" />
+        <option name="url" value="https://github.com/cardentey86/RHCapas.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/Tutoriales/RHCapas/BackEnd/Core/Entity/Persona.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Tutoriales/RHCapas/BackEnd/Core/obj/Debug/netcoreapp2.0/Core.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
+  </component>
   <component name="ProjectId" id="2T1VYSyYgHoi6H2XcpFJfGzRCYr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -100,6 +128,8 @@
       <option name="presentableId" value="Default" />
       <updated>1690210623977</updated>
       <workItem from="1690210625740" duration="556000" />
+      <workItem from="1690212394382" duration="140000" />
+      <workItem from="1690212744076" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="rtgtgrtg">
       <created>1690210892315</created>
@@ -122,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690210988327</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gfd">
+      <created>1690212176818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690212176818</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +182,8 @@
     <MESSAGE value="rtgtgrtg" />
     <MESSAGE value="yrtnn" />
     <MESSAGE value="gfdhg" />
-    <option name="LAST_COMMIT_MESSAGE" value="gfdhg" />
+    <MESSAGE value="gfd" />
+    <option name="LAST_COMMIT_MESSAGE" value="gfd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Core;
+using Core.Entity;
 using Infrastructure.DataContext;
 using Services.DTO;
 using Services.ServicesP.ServicesM;
