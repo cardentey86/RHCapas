@@ -11,6 +11,6 @@ namespace Core
         public DateTime FechaNacimiento { get; set; }
         public string Email { get; set; }
 		public string Develop_Edited { get; set; }
-		public string Master { get; set; }
+		public string Master_edited { get; set; }
     }
 }
