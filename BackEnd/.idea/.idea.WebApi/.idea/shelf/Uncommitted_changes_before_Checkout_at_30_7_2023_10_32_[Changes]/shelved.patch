@@ -1,0 +1,1025 @@
+Index: WebApi/obj/WebApi.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\WebApi\\\\WebApi.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\r\n        \"projectName\": \"Core\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    },\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\",\r\n        \"projectName\": \"Infrastructure\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"\r\n              }\r\n            }\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.AspNetCore.All\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.8, )\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    },\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\",\r\n        \"projectName\": \"Services\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"\r\n              },\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\"\r\n              }\r\n            }\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"AutoMapper.Extensions.Microsoft.DependencyInjection\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[5.0.1, )\"\r\n            },\r\n            \"Inyector-AspNetCore\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[1.2.0, )\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    },\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\WebApi\\\\WebApi.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\WebApi\\\\WebApi.csproj\",\r\n        \"projectName\": \"WebApi\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\WebApi\\\\WebApi.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\WebApi\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\Sdks\\\\Microsoft.NET.Sdk.Web\\\\library-packs\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"\r\n              },\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\"\r\n              },\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\"\r\n              }\r\n            }\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.AspNetCore.All\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.8, )\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            },\r\n            \"Microsoft.VisualStudio.Web.CodeGeneration.Design\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.3, )\"\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApi/obj/WebApi.csproj.nuget.dgspec.json b/WebApi/obj/WebApi.csproj.nuget.dgspec.json
+--- a/WebApi/obj/WebApi.csproj.nuget.dgspec.json	
++++ b/WebApi/obj/WebApi.csproj.nuget.dgspec.json	
+@@ -1,32 +1,30 @@
+ {
+   "format": 1,
+   "restore": {
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj": {}
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj": {}
+   },
+   "projects": {
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj",
+         "projectName": "Core",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -36,10 +34,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+@@ -83,29 +79,27 @@
+         }
+       }
+     },
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
+         "projectName": "Infrastructure",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -115,10 +109,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+@@ -128,8 +120,8 @@
+           "netcoreapp2.0": {
+             "targetAlias": "netcoreapp2.0",
+             "projectReferences": {
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"
+               }
+             }
+           }
+@@ -170,29 +162,27 @@
+         }
+       }
+     },
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj",
+         "projectName": "Services",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -202,10 +192,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+@@ -215,11 +203,11 @@
+           "netcoreapp2.0": {
+             "targetAlias": "netcoreapp2.0",
+             "projectReferences": {
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"
+               },
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"
+               }
+             }
+           }
+@@ -264,29 +252,27 @@
+         }
+       }
+     },
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj",
+         "projectName": "WebApi",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\WebApi\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\WebApi\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -296,10 +282,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+@@ -310,14 +294,14 @@
+           "netcoreapp2.0": {
+             "targetAlias": "netcoreapp2.0",
+             "projectReferences": {
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"
+               },
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"
+               },
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj"
+               }
+             }
+           }
+Index: Infrastructure/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/project.assets.json b/Infrastructure/obj/project.assets.json
+--- a/Infrastructure/obj/project.assets.json	
++++ b/Infrastructure/obj/project.assets.json	
+@@ -13845,37 +13845,34 @@
+     ]
+   },
+   "packageFolders": {
+-    "C:\\Users\\adrianalvarez\\.nuget\\packages\\": {},
++    "C:\\Users\\Adrian\\.nuget\\packages\\": {},
+     "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {},
+-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
+     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
+     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
++    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {},
+     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
++      "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
+       "projectName": "Infrastructure",
+-      "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
+-      "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-      "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\obj\\",
++      "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
++      "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\obj\\",
+       "projectStyle": "PackageReference",
+       "fallbackFolders": [
+         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+       ],
+       "configFilePaths": [
+-        "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++        "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -13885,10 +13882,8 @@
+         "netcoreapp2.0"
+       ],
+       "sources": {
+-        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+         "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+         "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+         "https://api.nuget.org/v3/index.json": {},
+@@ -13898,8 +13893,8 @@
+         "netcoreapp2.0": {
+           "targetAlias": "netcoreapp2.0",
+           "projectReferences": {
+-            "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+-              "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"
++            "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++              "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"
+             }
+           }
+         }
+Index: WebApi/obj/WebApi.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\adrianalvarez\\.nuget\\packages\\;C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages;C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages;C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages;C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\;C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.6.0</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"C:\\Users\\adrianalvarez\\.nuget\\packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\\" />\r\n  </ItemGroup>\r\n  <ImportGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <Import Project=\"$(NuGetPackageRoot)microsoft.netcore.app\\2.0.0\\build\\netcoreapp2.0\\Microsoft.NETCore.App.props\" Condition=\"Exists('$(NuGetPackageRoot)microsoft.netcore.app\\2.0.0\\build\\netcoreapp2.0\\Microsoft.NETCore.App.props')\" />\r\n  </ImportGroup>\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=\" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' \">C:\\Users\\adrianalvarez\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>\r\n  </PropertyGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApi/obj/WebApi.csproj.nuget.g.props b/WebApi/obj/WebApi.csproj.nuget.g.props
+--- a/WebApi/obj/WebApi.csproj.nuget.g.props	
++++ b/WebApi/obj/WebApi.csproj.nuget.g.props	
+@@ -5,14 +5,13 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\adrianalvarez\.nuget\packages\;C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages;C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages;C:\Program Files\DevExpress 22.1\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Adrian\.nuget\packages\;C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages;C:\Program Files\DevExpress 22.1\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\adrianalvarez\.nuget\packages\" />
++    <SourceRoot Include="C:\Users\Adrian\.nuget\packages\" />
+     <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages\" />
+-    <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\" />
+     <SourceRoot Include="C:\Program Files\DevExpress 22.1\Components\Offline Packages\" />
+     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+     <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+@@ -22,6 +21,6 @@
+     <Import Project="$(NuGetPackageRoot)microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props')" />
+   </ImportGroup>
+   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\adrianalvarez\.nuget\packages\microsoft.entityframeworkcore.tools\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
++    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Adrian\.nuget\packages\microsoft.entityframeworkcore.tools\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
+   </PropertyGroup>
+ </Project>
+\ No newline at end of file
+Index: WebApi/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\WebApi\\\\WebApi.csproj\",\"projectName\":\"WebApi\",\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\WebApi\\\\WebApi.csproj\",\"outputPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\WebApi\\\\obj\\\\\",\"projectStyle\":\"PackageReference\",\"fallbackFolders\":[\"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\",\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"],\"originalTargetFrameworks\":[\"netcoreapp2.0\"],\"sources\":{\"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\":{},\"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\Sdks\\\\Microsoft.NET.Sdk.Web\\\\library-packs\":{},\"https://api.nuget.org/v3/index.json\":{},\"https://nexus.gretatest.com/repository/nuget-group/\":{}},\"frameworks\":{\"netcoreapp2.0\":{\"targetAlias\":\"netcoreapp2.0\",\"projectReferences\":{\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\":{\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"},\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\":{\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\"},\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\":{\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\"}}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"netcoreapp2.0\":{\"targetAlias\":\"netcoreapp2.0\",\"dependencies\":{\"Microsoft.AspNetCore.All\":{\"target\":\"Package\",\"version\":\"[2.0.8, )\"},\"Microsoft.NETCore.App\":{\"suppressParent\":\"All\",\"target\":\"Package\",\"version\":\"[2.0.0, )\",\"autoReferenced\":true},\"Microsoft.VisualStudio.Web.CodeGeneration.Design\":{\"target\":\"Package\",\"version\":\"[2.0.3, )\"}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"runtimeIdentifierGraphPath\":\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/WebApi/obj/project.packagespec.json b/WebApi/obj/project.packagespec.json
+--- a/WebApi/obj/project.packagespec.json	
++++ b/WebApi/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"D:\\Tutoriales\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj","projectName":"WebApi","projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj","outputPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\WebApi\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages","C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages","C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages","C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages","C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet","C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["netcoreapp2.0"],"sources":{"C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs":{},"https://api.nuget.org/v3/index.json":{},"https://nexus.gretatest.com/repository/nuget-group/":{}},"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","projectReferences":{"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj":{"projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"},"D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj":{"projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"},"D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj":{"projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","dependencies":{"Microsoft.AspNetCore.All":{"target":"Package","version":"[2.0.8, )"},"Microsoft.NETCore.App":{"suppressParent":"All","target":"Package","version":"[2.0.0, )","autoReferenced":true},"Microsoft.VisualStudio.Web.CodeGeneration.Design":{"target":"Package","version":"[2.0.3, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj","projectName":"WebApi","projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\WebApi\\WebApi.csproj","outputPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\WebApi\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages","C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages","C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages","C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet","C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["netcoreapp2.0"],"sources":{"C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs":{},"https://api.nuget.org/v3/index.json":{},"https://nexus.gretatest.com/repository/nuget-group/":{}},"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","projectReferences":{"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj":{"projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"},"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj":{"projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"},"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj":{"projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","dependencies":{"Microsoft.AspNetCore.All":{"target":"Package","version":"[2.0.8, )"},"Microsoft.NETCore.App":{"suppressParent":"All","target":"Package","version":"[2.0.0, )","autoReferenced":true},"Microsoft.VisualStudio.Web.CodeGeneration.Design":{"target":"Package","version":"[2.0.3, )"}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\r\n        \"projectName\": \"Core\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    },\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\",\r\n        \"projectName\": \"Infrastructure\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"\r\n              }\r\n            }\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.AspNetCore.All\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.8, )\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json b/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json
+--- a/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json	
++++ b/Infrastructure/obj/Infrastructure.csproj.nuget.dgspec.json	
+@@ -1,32 +1,30 @@
+ {
+   "format": 1,
+   "restore": {
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {}
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {}
+   },
+   "projects": {
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj",
+         "projectName": "Core",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -36,10 +34,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+@@ -83,29 +79,27 @@
+         }
+       }
+     },
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
+         "projectName": "Infrastructure",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -115,10 +109,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+@@ -128,8 +120,8 @@
+           "netcoreapp2.0": {
+             "targetAlias": "netcoreapp2.0",
+             "projectReferences": {
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"
+               }
+             }
+           }
+Index: Infrastructure/obj/Infrastructure.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\adrianalvarez\\.nuget\\packages\\;C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages;C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages;C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages;C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\;C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.6.0</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"C:\\Users\\adrianalvarez\\.nuget\\packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\\" />\r\n  </ItemGroup>\r\n  <ImportGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <Import Project=\"$(NuGetPackageRoot)microsoft.netcore.app\\2.0.0\\build\\netcoreapp2.0\\Microsoft.NETCore.App.props\" Condition=\"Exists('$(NuGetPackageRoot)microsoft.netcore.app\\2.0.0\\build\\netcoreapp2.0\\Microsoft.NETCore.App.props')\" />\r\n  </ImportGroup>\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=\" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' \">C:\\Users\\adrianalvarez\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>\r\n  </PropertyGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/Infrastructure.csproj.nuget.g.props b/Infrastructure/obj/Infrastructure.csproj.nuget.g.props
+--- a/Infrastructure/obj/Infrastructure.csproj.nuget.g.props	
++++ b/Infrastructure/obj/Infrastructure.csproj.nuget.g.props	
+@@ -5,14 +5,13 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\adrianalvarez\.nuget\packages\;C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages;C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages;C:\Program Files\DevExpress 22.1\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Adrian\.nuget\packages\;C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages;C:\Program Files\DevExpress 22.1\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\adrianalvarez\.nuget\packages\" />
++    <SourceRoot Include="C:\Users\Adrian\.nuget\packages\" />
+     <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages\" />
+-    <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\" />
+     <SourceRoot Include="C:\Program Files\DevExpress 22.1\Components\Offline Packages\" />
+     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+     <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+@@ -22,6 +21,6 @@
+     <Import Project="$(NuGetPackageRoot)microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props')" />
+   </ImportGroup>
+   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\adrianalvarez\.nuget\packages\microsoft.entityframeworkcore.tools\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
++    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Adrian\.nuget\packages\microsoft.entityframeworkcore.tools\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
+   </PropertyGroup>
+ </Project>
+\ No newline at end of file
+Index: Services/obj/Debug/netcoreapp2.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.RootNamespace = Services\r\nbuild_property.ProjectDir = D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Services/obj/Debug/netcoreapp2.0/Services.GeneratedMSBuildEditorConfig.editorconfig b/Services/obj/Debug/netcoreapp2.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Services/obj/Debug/netcoreapp2.0/Services.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Services/obj/Debug/netcoreapp2.0/Services.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -1,3 +1,3 @@
+ is_global = true
+ build_property.RootNamespace = Services
+-build_property.ProjectDir = D:\Tutoriales\RHCapas\BackEnd\Services\
++build_property.ProjectDir = C:\Users\Adrian\Downloads\RHCapas\BackEnd\Services\
+Index: Infrastructure/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16902112479610793
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/rider.project.restore.info b/Infrastructure/obj/rider.project.restore.info
+--- a/Infrastructure/obj/rider.project.restore.info	
++++ b/Infrastructure/obj/rider.project.restore.info	
+@@ -1,1 +1,1 @@
+-16902112479610793
+\ No newline at end of file
++16907274916428692
+\ No newline at end of file
+Index: Core/obj/Core.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\r\n        \"projectName\": \"Core\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Core/obj/Core.csproj.nuget.dgspec.json b/Core/obj/Core.csproj.nuget.dgspec.json
+--- a/Core/obj/Core.csproj.nuget.dgspec.json	
++++ b/Core/obj/Core.csproj.nuget.dgspec.json	
+@@ -1,32 +1,30 @@
+ {
+   "format": 1,
+   "restore": {
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {}
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {}
+   },
+   "projects": {
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj",
+         "projectName": "Core",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -36,10 +34,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+Index: Core/obj/Debug/netcoreapp2.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.RootNamespace = Core\r\nbuild_property.ProjectDir = D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Core/obj/Debug/netcoreapp2.0/Core.GeneratedMSBuildEditorConfig.editorconfig b/Core/obj/Debug/netcoreapp2.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Core/obj/Debug/netcoreapp2.0/Core.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Core/obj/Debug/netcoreapp2.0/Core.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -1,3 +1,3 @@
+ is_global = true
+ build_property.RootNamespace = Core
+-build_property.ProjectDir = D:\Tutoriales\RHCapas\BackEnd\Core\
++build_property.ProjectDir = C:\Users\Adrian\Downloads\RHCapas\BackEnd\Core\
+Index: Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>is_global = true\r\nbuild_property.RootNamespace = Infrastructure\r\nbuild_property.ProjectDir = D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig b/Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+--- a/Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig	
++++ b/Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig	
+@@ -1,3 +1,3 @@
+ is_global = true
+ build_property.RootNamespace = Infrastructure
+-build_property.ProjectDir = D:\Tutoriales\RHCapas\BackEnd\Infrastructure\
++build_property.ProjectDir = C:\Users\Adrian\Downloads\RHCapas\BackEnd\Infrastructure\
+Index: Infrastructure/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\",\"projectName\":\"Infrastructure\",\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\",\"outputPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\obj\\\\\",\"projectStyle\":\"PackageReference\",\"fallbackFolders\":[\"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\",\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"],\"originalTargetFrameworks\":[\"netcoreapp2.0\"],\"sources\":{\"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\":{},\"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"https://api.nuget.org/v3/index.json\":{},\"https://nexus.gretatest.com/repository/nuget-group/\":{}},\"frameworks\":{\"netcoreapp2.0\":{\"targetAlias\":\"netcoreapp2.0\",\"projectReferences\":{\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\":{\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"}}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"netcoreapp2.0\":{\"targetAlias\":\"netcoreapp2.0\",\"dependencies\":{\"Microsoft.AspNetCore.All\":{\"target\":\"Package\",\"version\":\"[2.0.8, )\"},\"Microsoft.NETCore.App\":{\"suppressParent\":\"All\",\"target\":\"Package\",\"version\":\"[2.0.0, )\",\"autoReferenced\":true}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"runtimeIdentifierGraphPath\":\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Infrastructure/obj/project.packagespec.json b/Infrastructure/obj/project.packagespec.json
+--- a/Infrastructure/obj/project.packagespec.json	
++++ b/Infrastructure/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj","projectName":"Infrastructure","projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj","outputPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages","C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages","C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages","C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages","C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet","C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["netcoreapp2.0"],"sources":{"C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages":{},"https://api.nuget.org/v3/index.json":{},"https://nexus.gretatest.com/repository/nuget-group/":{}},"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","projectReferences":{"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj":{"projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","dependencies":{"Microsoft.AspNetCore.All":{"target":"Package","version":"[2.0.8, )"},"Microsoft.NETCore.App":{"suppressParent":"All","target":"Package","version":"[2.0.0, )","autoReferenced":true}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj","projectName":"Infrastructure","projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj","outputPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages","C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages","C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages","C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet","C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["netcoreapp2.0"],"sources":{"C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages":{},"https://api.nuget.org/v3/index.json":{},"https://nexus.gretatest.com/repository/nuget-group/":{}},"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","projectReferences":{"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj":{"projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","dependencies":{"Microsoft.AspNetCore.All":{"target":"Package","version":"[2.0.8, )"},"Microsoft.NETCore.App":{"suppressParent":"All","target":"Package","version":"[2.0.0, )","autoReferenced":true}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: Core/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\"projectName\":\"Core\",\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\"outputPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\obj\\\\\",\"projectStyle\":\"PackageReference\",\"fallbackFolders\":[\"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\",\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"],\"originalTargetFrameworks\":[\"netcoreapp2.0\"],\"sources\":{\"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\":{},\"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"https://api.nuget.org/v3/index.json\":{},\"https://nexus.gretatest.com/repository/nuget-group/\":{}},\"frameworks\":{\"netcoreapp2.0\":{\"targetAlias\":\"netcoreapp2.0\",\"projectReferences\":{}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"netcoreapp2.0\":{\"targetAlias\":\"netcoreapp2.0\",\"dependencies\":{\"Microsoft.NETCore.App\":{\"suppressParent\":\"All\",\"target\":\"Package\",\"version\":\"[2.0.0, )\",\"autoReferenced\":true}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"runtimeIdentifierGraphPath\":\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Core/obj/project.packagespec.json b/Core/obj/project.packagespec.json
+--- a/Core/obj/project.packagespec.json	
++++ b/Core/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj","projectName":"Core","projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj","outputPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages","C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages","C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages","C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages","C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet","C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["netcoreapp2.0"],"sources":{"C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages":{},"https://api.nuget.org/v3/index.json":{},"https://nexus.gretatest.com/repository/nuget-group/":{}},"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","dependencies":{"Microsoft.NETCore.App":{"suppressParent":"All","target":"Package","version":"[2.0.0, )","autoReferenced":true}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj","projectName":"Core","projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj","outputPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages","C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages","C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages","C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet","C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["netcoreapp2.0"],"sources":{"C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages":{},"https://api.nuget.org/v3/index.json":{},"https://nexus.gretatest.com/repository/nuget-group/":{}},"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","dependencies":{"Microsoft.NETCore.App":{"suppressParent":"All","target":"Package","version":"[2.0.0, )","autoReferenced":true}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
+Index: Services/obj/project.assets.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Services/obj/project.assets.json b/Services/obj/project.assets.json
+--- a/Services/obj/project.assets.json	
++++ b/Services/obj/project.assets.json	
+@@ -13980,37 +13980,34 @@
+     ]
+   },
+   "packageFolders": {
+-    "C:\\Users\\adrianalvarez\\.nuget\\packages\\": {},
++    "C:\\Users\\Adrian\\.nuget\\packages\\": {},
+     "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages": {},
+-    "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
+     "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
+     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
++    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {},
+     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+   },
+   "project": {
+     "version": "1.0.0",
+     "restore": {
+-      "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj",
++      "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj",
+       "projectName": "Services",
+-      "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj",
+-      "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-      "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\obj\\",
++      "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj",
++      "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++      "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\obj\\",
+       "projectStyle": "PackageReference",
+       "fallbackFolders": [
+         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+       ],
+       "configFilePaths": [
+-        "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++        "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -14020,10 +14017,8 @@
+         "netcoreapp2.0"
+       ],
+       "sources": {
+-        "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+         "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+         "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+         "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+         "https://api.nuget.org/v3/index.json": {},
+@@ -14033,11 +14028,11 @@
+         "netcoreapp2.0": {
+           "targetAlias": "netcoreapp2.0",
+           "projectReferences": {
+-            "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+-              "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"
++            "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++              "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"
+             },
+-            "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
+-              "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"
++            "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
++              "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"
+             }
+           }
+         }
+Index: Services/obj/Services.csproj.nuget.dgspec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"format\": 1,\r\n  \"restore\": {\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\": {}\r\n  },\r\n  \"projects\": {\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\r\n        \"projectName\": \"Core\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {}\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    },\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\",\r\n        \"projectName\": \"Infrastructure\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"\r\n              }\r\n            }\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"Microsoft.AspNetCore.All\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.8, )\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    },\r\n    \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\": {\r\n      \"version\": \"1.0.0\",\r\n      \"restore\": {\r\n        \"projectUniqueName\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\",\r\n        \"projectName\": \"Services\",\r\n        \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\",\r\n        \"packagesPath\": \"C:\\\\Users\\\\adrianalvarez\\\\.nuget\\\\packages\\\\\",\r\n        \"outputPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\obj\\\\\",\r\n        \"projectStyle\": \"PackageReference\",\r\n        \"fallbackFolders\": [\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\\\\\",\r\n          \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"\r\n        ],\r\n        \"configFilePaths\": [\r\n          \"C:\\\\Users\\\\adrianalvarez\\\\AppData\\\\Roaming\\\\NuGet\\\\NuGet.Config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 19.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 20.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 21.2.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\DevExpress 22.1.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.FallbackLocation.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Microsoft.VisualStudio.Offline.config\",\r\n          \"C:\\\\Program Files (x86)\\\\NuGet\\\\Config\\\\Xamarin.Offline.config\"\r\n        ],\r\n        \"originalTargetFrameworks\": [\r\n          \"netcoreapp2.0\"\r\n        ],\r\n        \"sources\": {\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\": {},\r\n          \"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\": {},\r\n          \"https://api.nuget.org/v3/index.json\": {},\r\n          \"https://nexus.gretatest.com/repository/nuget-group/\": {}\r\n        },\r\n        \"frameworks\": {\r\n          \"netcoreapp2.0\": {\r\n            \"targetAlias\": \"netcoreapp2.0\",\r\n            \"projectReferences\": {\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"\r\n              },\r\n              \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\": {\r\n                \"projectPath\": \"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\"\r\n              }\r\n            }\r\n          }\r\n        },\r\n        \"warningProperties\": {\r\n          \"warnAsError\": [\r\n            \"NU1605\"\r\n          ]\r\n        }\r\n      },\r\n      \"frameworks\": {\r\n        \"netcoreapp2.0\": {\r\n          \"targetAlias\": \"netcoreapp2.0\",\r\n          \"dependencies\": {\r\n            \"AutoMapper.Extensions.Microsoft.DependencyInjection\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[5.0.1, )\"\r\n            },\r\n            \"Inyector-AspNetCore\": {\r\n              \"target\": \"Package\",\r\n              \"version\": \"[1.2.0, )\"\r\n            },\r\n            \"Microsoft.NETCore.App\": {\r\n              \"suppressParent\": \"All\",\r\n              \"target\": \"Package\",\r\n              \"version\": \"[2.0.0, )\",\r\n              \"autoReferenced\": true\r\n            }\r\n          },\r\n          \"imports\": [\r\n            \"net461\",\r\n            \"net462\",\r\n            \"net47\",\r\n            \"net471\",\r\n            \"net472\",\r\n            \"net48\",\r\n            \"net481\"\r\n          ],\r\n          \"assetTargetFallback\": true,\r\n          \"warn\": true,\r\n          \"runtimeIdentifierGraphPath\": \"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"\r\n        }\r\n      }\r\n    }\r\n  }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Services/obj/Services.csproj.nuget.dgspec.json b/Services/obj/Services.csproj.nuget.dgspec.json
+--- a/Services/obj/Services.csproj.nuget.dgspec.json	
++++ b/Services/obj/Services.csproj.nuget.dgspec.json	
+@@ -1,32 +1,30 @@
+ {
+   "format": 1,
+   "restore": {
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj": {}
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj": {}
+   },
+   "projects": {
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj",
+         "projectName": "Core",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -36,10 +34,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+@@ -83,29 +79,27 @@
+         }
+       }
+     },
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
+         "projectName": "Infrastructure",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -115,10 +109,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+@@ -128,8 +120,8 @@
+           "netcoreapp2.0": {
+             "targetAlias": "netcoreapp2.0",
+             "projectReferences": {
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"
+               }
+             }
+           }
+@@ -170,29 +162,27 @@
+         }
+       }
+     },
+-    "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj": {
++    "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj": {
+       "version": "1.0.0",
+       "restore": {
+-        "projectUniqueName": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj",
++        "projectUniqueName": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj",
+         "projectName": "Services",
+-        "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj",
+-        "packagesPath": "C:\\Users\\adrianalvarez\\.nuget\\packages\\",
+-        "outputPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\obj\\",
++        "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj",
++        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
++        "outputPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\obj\\",
+         "projectStyle": "PackageReference",
+         "fallbackFolders": [
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
++          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet",
+           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+         ],
+         "configFilePaths": [
+-          "C:\\Users\\adrianalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
++          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+@@ -202,10 +192,8 @@
+           "netcoreapp2.0"
+         ],
+         "sources": {
+-          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+-          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+           "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+           "https://api.nuget.org/v3/index.json": {},
+@@ -215,11 +203,11 @@
+           "netcoreapp2.0": {
+             "targetAlias": "netcoreapp2.0",
+             "projectReferences": {
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"
+               },
+-              "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
+-                "projectPath": "D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"
++              "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
++                "projectPath": "C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"
+               }
+             }
+           }
+Index: Services/obj/rider.project.restore.info
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>16902112479540972
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Services/obj/rider.project.restore.info b/Services/obj/rider.project.restore.info
+--- a/Services/obj/rider.project.restore.info	
++++ b/Services/obj/rider.project.restore.info	
+@@ -1,1 +1,1 @@
+-16902112479540972
+\ No newline at end of file
++16907274920166402
+\ No newline at end of file
+Index: Services/obj/Services.csproj.nuget.g.props
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<Project ToolsVersion=\"14.0\" xmlns=\"http://schemas.microsoft.com/developer/msbuild/2003\">\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <RestoreSuccess Condition=\" '$(RestoreSuccess)' == '' \">True</RestoreSuccess>\r\n    <RestoreTool Condition=\" '$(RestoreTool)' == '' \">NuGet</RestoreTool>\r\n    <ProjectAssetsFile Condition=\" '$(ProjectAssetsFile)' == '' \">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>\r\n    <NuGetPackageRoot Condition=\" '$(NuGetPackageRoot)' == '' \">$(UserProfile)\\.nuget\\packages\\</NuGetPackageRoot>\r\n    <NuGetPackageFolders Condition=\" '$(NuGetPackageFolders)' == '' \">C:\\Users\\adrianalvarez\\.nuget\\packages\\;C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages;C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages;C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages;C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages;C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\;C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder</NuGetPackageFolders>\r\n    <NuGetProjectStyle Condition=\" '$(NuGetProjectStyle)' == '' \">PackageReference</NuGetProjectStyle>\r\n    <NuGetToolVersion Condition=\" '$(NuGetToolVersion)' == '' \">6.6.0</NuGetToolVersion>\r\n  </PropertyGroup>\r\n  <ItemGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <SourceRoot Include=\"C:\\Users\\adrianalvarez\\.nuget\\packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\\" />\r\n    <SourceRoot Include=\"C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\\" />\r\n  </ItemGroup>\r\n  <ImportGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <Import Project=\"$(NuGetPackageRoot)microsoft.netcore.app\\2.0.0\\build\\netcoreapp2.0\\Microsoft.NETCore.App.props\" Condition=\"Exists('$(NuGetPackageRoot)microsoft.netcore.app\\2.0.0\\build\\netcoreapp2.0\\Microsoft.NETCore.App.props')\" />\r\n  </ImportGroup>\r\n  <PropertyGroup Condition=\" '$(ExcludeRestorePackageImports)' != 'true' \">\r\n    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=\" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' \">C:\\Users\\adrianalvarez\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>\r\n  </PropertyGroup>\r\n</Project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Services/obj/Services.csproj.nuget.g.props b/Services/obj/Services.csproj.nuget.g.props
+--- a/Services/obj/Services.csproj.nuget.g.props	
++++ b/Services/obj/Services.csproj.nuget.g.props	
+@@ -5,14 +5,13 @@
+     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\adrianalvarez\.nuget\packages\;C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages;C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages;C:\Program Files\DevExpress 22.1\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
++    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Adrian\.nuget\packages\;C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages;C:\Program Files\DevExpress 22.1\Components\Offline Packages;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages;C:\Program Files (x86)\Microsoft\Xamarin\NuGet;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
++    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.5.0</NuGetToolVersion>
+   </PropertyGroup>
+   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <SourceRoot Include="C:\Users\adrianalvarez\.nuget\packages\" />
++    <SourceRoot Include="C:\Users\Adrian\.nuget\packages\" />
+     <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.1\Components\Offline Packages\" />
+-    <SourceRoot Include="C:\Program Files (x86)\DevExpress 21.2\Components\Offline Packages\" />
+     <SourceRoot Include="C:\Program Files\DevExpress 22.1\Components\Offline Packages\" />
+     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+     <SourceRoot Include="C:\Program Files (x86)\Microsoft\Xamarin\NuGet\" />
+@@ -22,6 +21,6 @@
+     <Import Project="$(NuGetPackageRoot)microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app\2.0.0\build\netcoreapp2.0\Microsoft.NETCore.App.props')" />
+   </ImportGroup>
+   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+-    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\adrianalvarez\.nuget\packages\microsoft.entityframeworkcore.tools\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
++    <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Adrian\.nuget\packages\microsoft.entityframeworkcore.tools\2.0.3</PkgMicrosoft_EntityFrameworkCore_Tools>
+   </PropertyGroup>
+ </Project>
+\ No newline at end of file
+Index: Services/obj/project.packagespec.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"restore\":{\"projectUniqueName\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\",\"projectName\":\"Services\",\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\Services.csproj\",\"outputPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Services\\\\obj\\\\\",\"projectStyle\":\"PackageReference\",\"fallbackFolders\":[\"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\Offline Packages\",\"C:\\\\Program Files (x86)\\\\Microsoft Visual Studio\\\\Shared\\\\NuGetPackages\",\"C:\\\\Program Files (x86)\\\\Microsoft\\\\Xamarin\\\\NuGet\",\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\NuGetFallbackFolder\"],\"originalTargetFrameworks\":[\"netcoreapp2.0\"],\"sources\":{\"C:\\\\Program Files (x86)\\\\DevExpress 19.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 20.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 21.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\DevExpress 21.2\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"C:\\\\Program Files (x86)\\\\Microsoft SDKs\\\\NuGetPackages\\\\\":{},\"C:\\\\Program Files\\\\DevExpress 22.1\\\\Components\\\\System\\\\Components\\\\Packages\":{},\"https://api.nuget.org/v3/index.json\":{},\"https://nexus.gretatest.com/repository/nuget-group/\":{}},\"frameworks\":{\"netcoreapp2.0\":{\"targetAlias\":\"netcoreapp2.0\",\"projectReferences\":{\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\":{\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Core\\\\Core.csproj\"},\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\":{\"projectPath\":\"D:\\\\Tutoriales\\\\RHCapas\\\\BackEnd\\\\Infrastructure\\\\Infrastructure.csproj\"}}}},\"warningProperties\":{\"warnAsError\":[\"NU1605\"]}}\"frameworks\":{\"netcoreapp2.0\":{\"targetAlias\":\"netcoreapp2.0\",\"dependencies\":{\"AutoMapper.Extensions.Microsoft.DependencyInjection\":{\"target\":\"Package\",\"version\":\"[5.0.1, )\"},\"Inyector-AspNetCore\":{\"target\":\"Package\",\"version\":\"[1.2.0, )\"},\"Microsoft.NETCore.App\":{\"suppressParent\":\"All\",\"target\":\"Package\",\"version\":\"[2.0.0, )\",\"autoReferenced\":true}},\"imports\":[\"net461\",\"net462\",\"net47\",\"net471\",\"net472\",\"net48\",\"net481\"],\"assetTargetFallback\":true,\"warn\":true,\"runtimeIdentifierGraphPath\":\"C:\\\\Program Files\\\\dotnet\\\\sdk\\\\7.0.306\\\\RuntimeIdentifierGraph.json\"}}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Services/obj/project.packagespec.json b/Services/obj/project.packagespec.json
+--- a/Services/obj/project.packagespec.json	
++++ b/Services/obj/project.packagespec.json	
+@@ -1,1 +1,1 @@
+-"restore":{"projectUniqueName":"D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj","projectName":"Services","projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\Services.csproj","outputPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Services\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages","C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages","C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages","C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages","C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet","C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["netcoreapp2.0"],"sources":{"C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages":{},"https://api.nuget.org/v3/index.json":{},"https://nexus.gretatest.com/repository/nuget-group/":{}},"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","projectReferences":{"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj":{"projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Core\\Core.csproj"},"D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj":{"projectPath":"D:\\Tutoriales\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","dependencies":{"AutoMapper.Extensions.Microsoft.DependencyInjection":{"target":"Package","version":"[5.0.1, )"},"Inyector-AspNetCore":{"target":"Package","version":"[1.2.0, )"},"Microsoft.NETCore.App":{"suppressParent":"All","target":"Package","version":"[2.0.0, )","autoReferenced":true}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file
++"restore":{"projectUniqueName":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj","projectName":"Services","projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\Services.csproj","outputPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Services\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages","C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages","C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages","C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet","C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["netcoreapp2.0"],"sources":{"C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages":{},"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages":{},"https://api.nuget.org/v3/index.json":{},"https://nexus.gretatest.com/repository/nuget-group/":{}},"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","projectReferences":{"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj":{"projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Core\\Core.csproj"},"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj":{"projectPath":"C:\\Users\\Adrian\\Downloads\\RHCapas\\BackEnd\\Infrastructure\\Infrastructure.csproj"}}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"netcoreapp2.0":{"targetAlias":"netcoreapp2.0","dependencies":{"AutoMapper.Extensions.Microsoft.DependencyInjection":{"target":"Package","version":"[5.0.1, )"},"Inyector-AspNetCore":{"target":"Package","version":"[1.2.0, )"},"Microsoft.NETCore.App":{"suppressParent":"All","target":"Package","version":"[2.0.0, )","autoReferenced":true}},"imports":["net461","net462","net47","net471","net472","net48","net481"],"assetTargetFallback":true,"warn":true,"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"}}
+\ No newline at end of file

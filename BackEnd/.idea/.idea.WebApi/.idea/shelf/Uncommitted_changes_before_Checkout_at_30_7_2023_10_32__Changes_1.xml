@@ -1,0 +1,49 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1" date="1690727561615" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 30/7/2023 10:32 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="Core/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="Core/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/project.nuget.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.assets.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/Infrastructure.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/obj/Debug/netcoreapp2.0/Core.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Core/obj/Debug/netcoreapp2.0/Core.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/Core.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Services/obj/Debug/netcoreapp2.0/Services.assets.cache" />
+    <option name="AFTER_PATH" value="Services/obj/Debug/netcoreapp2.0/Services.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/Services.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/Infrastructure.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="WebApi/obj/Debug/netcoreapp2.0/WebApi.assets.cache" />
+    <option name="AFTER_PATH" value="WebApi/obj/Debug/netcoreapp2.0/WebApi.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/WebApi.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Core/obj/Debug/netcoreapp2.0/Core.assets.cache" />
+    <option name="AFTER_PATH" value="Core/obj/Debug/netcoreapp2.0/Core.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/Core.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="WebApi/obj/Debug/netcoreapp2.0/WebApi.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="WebApi/obj/Debug/netcoreapp2.0/WebApi.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/WebApi.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="Services/obj/Debug/netcoreapp2.0/Services.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="Services/obj/Debug/netcoreapp2.0/Services.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WebApi/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_7_2023_10_32_[Changes]1/Services.csproj.AssemblyReference.cache" />
+  </binary>
+</changelist>
